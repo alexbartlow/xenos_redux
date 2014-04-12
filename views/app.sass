@@ -1,0 +1,45 @@
+@import "bourbon/bourbon"
+@import "bitters/bitters"
+@import "neat/neat"
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:300)
+
+$well-color: #eee
+$background-color: #f1f0ec
+$border-color: darken($background-color, 40%)
+
+body
+  background: $background-color
+
+section
+
+  padding: 2em
+  @include outer-container
+  background: white
+  border-left: 1px solid $border-color
+  border-right: 1px solid $border-color
+
+  nav
+    border-top: 2px solid $border-color
+    @include span-columns(12)
+
+    min-height: 60px
+    ul
+      li
+        @include span-columns(1 of 10)
+        text-align: center
+        border-bottom: 1px solid $well-color
+        font-family: Oswald
+        font-size: 14pt
+        min-height: 4em
+        line-height: 1.6em
+        vertical-align: middle
+
+  article
+    @include span-columns(12)
+  address
+    @include span-columns(12)
+    background-color: $well-color
+    min-height: 60px
+    text-align: center
+    font-size: 10pt
