@@ -1,0 +1,813 @@
+<html>
+
+<head>
+<title>Building a New Generation - Week 3</title>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<link rel="stylesheet" href="/nav/main.css" type="text/css">
+<link rel="stylesheet" href="/nav/classes.css" type="text/css">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<a name="top"></a>
+<table class="navigation" border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr><td>
+
+<!-- Transparent link over logo -->
+<a target="_top" href="/index.htm"><img id="navlogolink" src="/nav/x.gif" height="30" width="260" border="0"></a>
+
+<!-- Search form -->
+<form id="xcf-search" target="_top" name="search" method="get" action="/search/">
+  <div id="xcf-search-input">
+    <input type="text" name="q" value="Search" onFocus="this.value='';" />
+    <button type="submit" title="Search the Xenos site"><img src="/global/graphics/search.png" alt="Search" /></button>
+	</div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a target="_top" href="/news/">What's&nbsp;New?</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a target="_top" href="http://store.xenos.org/">Online&nbsp;Store</a>
+</form>
+<!-- /Search form -->
+
+<!-- Main tabs -->
+<table id="tabsMain" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td></td>
+	<!-- Set colspan to number of tabs x 4 + number of icons - 1 -->
+	<td class="tabBorder" height="1" colspan="25"><img src="/nav/x.gif" width="1" height="1"></td>
+</tr>
+<tr align="center">
+	<td class="tabBorder" width="1"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainCorner1" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain1"><a target="_top" href="/aboutxenos/index.htm">About&nbsp;Xenos</a></td>
+	<td class="tabMainCorner1" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabMainCorner2" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain2"><a target="_top" href="/homegroups/index.htm">Home&nbsp;Groups</a></td>
+	<td class="tabMainCorner2" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabMainCorner3" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain3"><a target="_top" href="/teachings/index.htm">Bible&nbsp;Teachings</a></td>
+	<td class="tabMainIcon3" valign="middle"><a target="_top" href="/teachings/index.htm"><img src="/nav/realmedia.gif" width="16" height="13" border="0"></a></td>
+	<td class="tabMainCorner3" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabMainCorner4" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain4"><a target="_top" href="/classes/index.htm">Adult&nbsp;Classes</a></td>
+	<td class="tabMainIcon4" valign="middle"><a target="_top" href="/classes/index.htm"><img src="/nav/realmedia.gif" width="16" height="13" border="0"></a></td>
+	<td class="tabMainCorner4" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabMainCorner5" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain5"><a target="_top" href="/essays/index.htm">Books&nbsp;&amp;&nbsp;Essays</a></td>
+	<td class="tabMainCorner5" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabMainCorner6" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain6"><a target="_top" href="/ministries/index.htm">Ministries</a></td>
+	<td class="tabMainCorner6" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+<!--
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabMainCorner7" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain7"><a target="_top" href="/store/index.htm">Store</a></td>
+	<td class="tabMainCorner7" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+-->
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabMainCorner8" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain8"><a target="_top" href="https://www.xenos.org/aboutxenos/donate.htm">Donate</a></td>
+	<td class="tabMainCorner8" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="1"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td width="3"><img src="/nav/x.gif" width="3" height="1"></td>
+</tr>
+<tr height="1">
+	<!-- Match td elements to number of tabs -->
+	<!-- Set colspan to 4 if tab has an icon -->
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder1" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder2" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder3" colspan="4"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder4" colspan="4"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder5" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder6" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+<!--
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder7" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+-->
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder8" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+</tr>
+</table>
+<!-- /Main tabs -->
+
+<!-- Sub tabs -->
+<table id="tabsSub" border="0" cellpadding="0" cellspacing="0">
+<tr align="center">
+	<td class="tabBorder" width="1"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabSubCorner1" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabSub1"><a target="_top" href="/classes/core.htm">Core&nbsp;Classes</a></td>
+	<td class="tabSubCorner1" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabSubCorner2" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabSub2"><a target="_top" href="/classes/leaders.htm">Classes&nbsp;for&nbsp;Leaders</a></td>
+	<td class="tabSubCorner2" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabSubCorner3" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabSub3"><a target="_top" href="/classes/electives.htm">Electives</a></td>
+	<td class="tabSubCorner3" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabSubCorner4" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabSub4"><a target="_top" href="/classes/social.htm">Social&nbsp;Issues</a></td>
+	<td class="tabSubCorner4" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabSubCorner5" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabSub5"><a target="_top" href="/classes/masters/index.htm">MA&nbsp;Program</a></td>
+	<td class="tabSubCorner5" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabSubCorner6" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabSub6"><a target="_top" href="/classes/register.php">Class&nbsp;Registration</a></td>
+	<td class="tabSubCorner6" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="1"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td width="3"><img src="/nav/x.gif" width="3" height="1"></td>
+</tr>
+<tr height="1">
+	<!-- Match td elements to number of tabs -->
+	<!-- Set colspan to 4 if tab has an icon -->
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabSubBorder1" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabSubBorder2" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabSubBorder3" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabSubBorder4" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabSubBorder5" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabSubBorder6" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+</tr>
+</table>
+<!-- /Sub tabs -->
+
+</td></tr>
+</table>
+<!-- /Navigation -->
+
+
+
+<div align="left">
+
+<table border="0" cellpadding="0" cellspacing="0" width="600">
+  <tr>
+    <td width="300" valign="top" align="left"><b><font face="Arial" size="4">Building a New
+    Generation</font><br>
+    </b><font face="Arial" size="3"><strong>with Beth Himsworth</strong></font></td>
+      <td width="300" valign="top" align="right"><a href="index.htm"><font face="Arial" size="3">previous 
+        page</font></a></td>
+  </tr>
+</table>
+</div>
+
+<blockquote>
+  <blockquote>
+    <i><b><p align="left">Communication and Conflict</p>
+    </b></i>
+  </blockquote>
+  <i><b><p ALIGN="left">Part 1: Communication</p>
+  </b></i><p>The most important and fragile of human endeavors.</p>
+  <p>The exchange of ideas, feelings, dreams, plans, affections and needs.</p>
+  <p>&nbsp;</p>
+  <i><b><p>Communication: 3 Levels</p>
+  <blockquote>
+  </blockquote>
+  <ul>
+    <li>Physical</li>
+  </ul>
+  <ul>
+    <li>Emotional </li>
+  </ul>
+  <ul>
+    <li>Verbal</li>
+  </ul>
+  <p>&nbsp;</p>
+  <i><b><p>Communication: Physical</p>
+  </b></i><blockquote>
+    <blockquote>
+      <p>In Infancy:</p>
+      <p>Calmness -------------- Acceptance</p>
+      <p>Consistency ----------- Trustworthiness</p>
+      <p>Cuddling -------------- Affection and Security</p>
+      <p>&nbsp;</p>
+      <p><u>In Early Childhood</u></p>
+      <blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+  <ul>
+    <ul>
+      <li>Carrying, Cuddling and Care taking</li>
+      <li>Physical Playing </li>
+    </ul>
+  </ul>
+  <blockquote>
+    <blockquote>
+      <p><u>In Middle Childhood:</u></p>
+    </blockquote>
+  </blockquote>
+  <ul>
+    <ul>
+      <li>Hugs, Casual Affection</li>
+      <li>Be sensitive to their peers</li>
+    </ul>
+  </ul>
+  <blockquote>
+    <blockquote>
+      <p><u>Teens and Young Adults:</u></p>
+    </blockquote>
+  </blockquote>
+  <ul>
+    <ul>
+      <li>May be more sensitive and physically withdrawn </li>
+      <li>Keep up casual, non-intrusive touch</li>
+    </ul>
+  </ul>
+  <i><b><p>&nbsp;</p>
+  <p>Communication: Emotional</b></i><ol>
+    <li>At any Age: </li>
+  </ol>
+  <ul>
+    <ul>
+      <li>Eye Contact</li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+      <li>Focused Attention</li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+      <li>Calmness and acceptance</li>
+    </ul>
+  </ul>
+  <p>&nbsp;<ol start="2">
+    <li>&nbsp;A relationship characterized by...</li>
+  </ol>
+  <ul>
+    <ul>
+      <li>Haste &amp; Distraction = &quot;you are not important&quot;</li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+      <li>Frustration &amp; Anger = &quot;you are not acceptable&quot;</li>
+    </ul>
+  </ul>
+  <p>&nbsp;<ol start="3">
+    <li>Primary dependence on Emotional Communication does not change with age or maturity.<i><b>
+      </b></i></li>
+  </ol>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <i><b><p>Communication: Non-verbal</p>
+  </b></i><blockquote>
+    <p>The basis for perception of: </p>
+  </blockquote>
+  <ul>
+    <ul>
+      <li>acceptance / non-acceptance</li>
+      <li>trust / mistrust</li>
+      <li>security / insecurity</li>
+    </ul>
+  </ul>
+  <p>&nbsp;</p>
+  <i><b><p>Communication: Verbal</p>
+  <blockquote>
+  </blockquote>
+  <ul>
+    <li>Least clear and least effective</li>
+  </ul>
+  <ul>
+    <li>Clarifies or confuses messages already being received from non-verbal communication</li>
+  </ul>
+  <blockquote>
+  </blockquote>
+  <p>&nbsp;</p>
+  <i><b><p>Responsibility of the Hearer...</b></i><ul>
+    <li>Communication is a two way street ...</li>
+    <ul>
+      <li>Listening</li>
+      <li>The Benefit of the Doubt</li>
+      <li>Clarification</li>
+    </ul>
+  </ul>
+  <p>&nbsp;</p>
+  <i><b><p>Communication: Expressing</b></i><ol>
+    <li>How much should I express to my child?</li>
+  </ol>
+  <ul>
+    <ul>
+      <li>Anxiety</li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+      <li>Sadness</li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+      <li>Anger</li>
+    </ul>
+  </ul>
+  <ol start="2">
+    <li>Projected Communication:<font SIZE="5"> </font>Successful Communication requires:</li>
+  </ol>
+  <ul>
+    <ul>
+      <li>Appropriate vocabulary and verbal symbols</li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+      <li>Prior listening and understanding</li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+      <li>Prior evaluation and goal setting</li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+      <li>Initiative on the part of the parent</li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+      <li>Time .... time .... time</li>
+    </ul>
+  </ul>
+  <ol start="3">
+    <li>Perceived Communication: Depends on getting through the &quot;filters&quot;</li>
+  </ol>
+  <blockquote>
+    <ul type="circle">
+      <li>Depends on the communication style or history already established</li>
+    </ul>
+    <ul type="circle">
+      <li>Depends on the emotional climate</li>
+    </ul>
+    <ul type="circle">
+      <li>Depends on the willingness of the receiver</li>
+    </ul>
+  </blockquote>
+  <ol start="5">
+    <li>Unwillingness to hear:</li>
+  </ol>
+  <blockquote>
+  </blockquote>
+  <blockquote>
+    <ul type="circle">
+      <li>Unresolved anger</li>
+    </ul>
+    <ul type="circle">
+      <li>Gradual alienation</li>
+    </ul>
+    <ul type="circle">
+      <li>Defiant or disinterested attitude</li>
+    </ul>
+  </blockquote>
+  <i><b><p>&nbsp;</p>
+  </b></i><p><i><b>Communication: Exploring</b></i> - Getting into their world<ul>
+    <li>What are they excited about?</li>
+  </ul>
+  <ul>
+    <li>What are they worried about?</li>
+  </ul>
+  <ul>
+    <li>Who are their friends? What do they appreciate about them?</li>
+  </ul>
+  <ul>
+    <li>What do they dream about or fear for the future?</li>
+  </ul>
+  <p>&nbsp;</p>
+  <p><i><b>Communication: Affirming</b></i> - The constant, unexpressed question of children
+  to their parents; </p>
+  <blockquote>
+    <i><b><p ALIGN="left">&quot;Do you love me?&quot;</p>
+    </b></i>
+  </blockquote>
+  <p>&nbsp;</p>
+  <i><b><p>Communication: Teaching</p>
+  </b></i><p>1. The &quot;Teachable moment&quot; </p>
+  <p>&nbsp;</p>
+  <p>2. Situational: but not at a time of conflict<ul>
+    <ul>
+      <li>Easy to appear judgmental</li>
+      <li>Easy to be perceived as rejecting</li>
+    </ul>
+  </ul>
+  <p>&nbsp;</p>
+  <p>3. Concrete examples, logical outcomes</p>
+  <i><b><p>&nbsp;</p>
+  <p>Communication: Directing</p>
+  </b></i><p>1. Directive messages are emotionally laden and often misinterpreted</p>
+  <p>&nbsp;</p>
+  <p>2. Clarity!</p>
+  <blockquote>
+    <p>Message sent</p>
+    <p>Message Received</p>
+    <p>&nbsp;</p>
+  </blockquote>
+  <i><b><p>Unintentional Communication:</p>
+  <blockquote>
+  </blockquote>
+  <ul>
+    <li>Habits</li>
+  </ul>
+  <ul>
+    <li>Priorities</li>
+  </ul>
+  <ul>
+    <li>Attitudes</li>
+  </ul>
+  <p>&nbsp;</p>
+  <i><b><p>Overlooked Communication:</b></i><ul>
+    <li>Expectations</li>
+  </ul>
+  <p>&nbsp;<ul>
+    <li>The Big Picture</li>
+  </ul>
+  <p>&nbsp;<ul>
+    <li>Our reactions: </li>
+    <ul>
+      <li>emotional</li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+      <li>values and discernment</li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+      <li>logistic</li>
+    </ul>
+  </ul>
+  <p>&nbsp;</p>
+  <i><b><p>Expectations<br>
+  </b></i><ul>
+    <li>&quot;Going to the beach&quot; syndrome</li>
+  </ul>
+  <ul>
+    <ul>
+      <li>Plan ahead</li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+      <li>Be clear</li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+      <li>Be consistent</li>
+    </ul>
+  </ul>
+  <p>&nbsp;</p>
+  <i><b><p ALIGN="left">Part 2: Conflict</p>
+  </b></i><blockquote>
+    <i><b><p ALIGN="left">A state of antagonism or opposition produced by competing wills,
+    needs agendas or expectations.</p>
+    </b></i><p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </blockquote>
+  <p>1. Myths about conflict:</p>
+  <blockquote>
+  </blockquote>
+  <ul>
+    <li>Conflict is bad for the relationship</li>
+  </ul>
+  <ul>
+    <li>Conflict must be avoided</li>
+  </ul>
+  <ul>
+    <li>Conflict is a sign of a weak relationship</li>
+  </ul>
+  <p>&nbsp;</p>
+  <p>2. Conflict reality: <ul>
+    <li>It is inevitable</li>
+  </ul>
+  <ul>
+    <li>It must be recognized and addressed</li>
+  </ul>
+  <ul>
+    <li>It is immensely useful and healthy for the relationship to grow and flourish!</li>
+  </ul>
+  <p>&nbsp;</p>
+  <p>3. Necessary, healthy conflict:</p>
+  <blockquote>
+  </blockquote>
+  <ul>
+    <li>Clarifies issues and principles</li>
+  </ul>
+  <ul>
+    <li>Teaches and affirms values</li>
+  </ul>
+  <ul>
+    <li>Brings the parent and child together and avoids alienation</li>
+  </ul>
+  <p>&nbsp;</p>
+  <p>4. Unnecessary, unhealthy conflict: Caused by: <ul>
+    <li>A competition of wills &#150; an unhealthy need to &quot;win&quot; or to be in
+      control&quot;</li>
+  </ul>
+  <ul>
+    <li>A lack of understanding of the child&#146;s growing ability and development</li>
+  </ul>
+  <p ALIGN="CENTER">&nbsp;</p>
+  <p ALIGN="CENTER">&nbsp;</p>
+  <p>5. Issues of Control: <ul>
+    <li>Leadership Style</li>
+  </ul>
+  <ul>
+    <ul>
+      <li>Directive</li>
+    </ul>
+  </ul>
+  <p>&nbsp;<ul>
+    <ul>
+      <li>Facilitative</li>
+    </ul>
+  </ul>
+  <p>&nbsp;<ul>
+    <li>How we view parental responsibility</li>
+  </ul>
+  <p>&nbsp;<ul>
+    <li>How we view personal autonomy</li>
+  </ul>
+  <p>&nbsp;<ul>
+    <li>How we view the will</li>
+  </ul>
+  <p>&nbsp;</p>
+  <p><i><b>The &quot;Will&quot;</b></i><ul>
+    <li>Much misunderstood</li>
+  </ul>
+  <ul>
+    <li>Much maligned</li>
+  </ul>
+  <ul>
+    <li>Much feared</li>
+  </ul>
+  <p>&nbsp;</p>
+  <p>1. The &quot;Strong Willed Child&quot; <ul>
+    <li>Congratulations!</li>
+  </ul>
+  <ul>
+    <li>The world we live in demands strength and certitude, not passivity.</li>
+  </ul>
+  <p>&nbsp;</p>
+  <p>2. The &quot;Easy-Going&quot; Child<ul>
+    <li>Congratulations!</li>
+  </ul>
+  <ul>
+    <li>Diplomacy and stability are much of what holds the world together. </li>
+  </ul>
+  <p>3. What is the &quot;Will&quot;? The power to make conscious, deliberate choices or to
+  control what one does. <ul>
+    <ul>
+      <ul>
+        <li>decisiveness</li>
+        <li>determination</li>
+      </ul>
+    </ul>
+  </ul>
+  <p>&nbsp;</p>
+  <p>4. The Role of the Will</p>
+  <blockquote>
+    <i><p>In addition to self-awareness, imagination, and conscience, it is the fourth human
+    endowment &#150; independent will &#150; that really makes effective self-management
+    possible. </p>
+    <p>It is the ability to make decisions and choices and to act in accordance with them.</p>
+    <p>It is the ability to act rather than to be acted upon, to proactively carry out the
+    program we have developed through the other three endowments.</p>
+    <p>Empowerment comes from learning how to use this great endowment in the decisions we
+    make every day. </p>
+    <p>Stephen R. Covey</p>
+    </i>
+  </blockquote>
+  <p>5. We WANT strong willed children!</p>
+  <blockquote>
+  </blockquote>
+  <ul>
+    <li>Not autonomous or selfish</li>
+  </ul>
+  <ul>
+    <li>Not &quot;willful&quot; or disobedient</li>
+  </ul>
+  <ul>
+    <li>Able to decide, to act and to persevere</li>
+  </ul>
+  <p>&nbsp;</p>
+  <i><b><p>Obedience: What are the issues?</b></i><ul>
+    <li>Attitude</li>
+  </ul>
+  <ul>
+    <li>Compliance</li>
+  </ul>
+  <ul>
+    <li>Learning</li>
+  </ul>
+  <p>&nbsp;</p>
+  <i><b><p>A lot of conflict is caused by...</p>
+  <blockquote>
+  </blockquote>
+  <p>1. Irritation</p>
+  <blockquote>
+  </blockquote>
+  <ul>
+    <li>Planning</li>
+  </ul>
+  <ul>
+    <li>Expectations</li>
+  </ul>
+  <ul>
+    <li>Personal Agenda</li>
+  </ul>
+  <p>2. Discouragement<ul>
+    <li>Loss of vision</li>
+  </ul>
+  <ul>
+    <li>Loss of perspective</li>
+  </ul>
+  <ul>
+    <li>Loss of support system</li>
+  </ul>
+  <ul>
+    <li>Loss of hope</li>
+  </ul>
+  <p>3. Fatigue<ul>
+    <li>Too much (number)</li>
+  </ul>
+  <ul>
+    <li>Too fast (schedule)</li>
+  </ul>
+  <ul>
+    <li>Too long (duration)</li>
+  </ul>
+  <p>&nbsp;</p>
+  <i><b><p>Common issues of conflict ... </b></i><ul>
+    <li>Eating</li>
+  </ul>
+  <p>&nbsp;<ul>
+    <li>Bedtime</li>
+  </ul>
+  <p>&nbsp;<ul>
+    <li>Demands and whining</li>
+  </ul>
+  <p>&nbsp;<ul>
+    <li>What to wear </li>
+    <ul>
+      <li>health</li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+      <li>style</li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+      <li>expense</li>
+    </ul>
+  </ul>
+  <p>&nbsp;<ul>
+    <li>What to watch, listen to or play</li>
+  </ul>
+  <p>&nbsp;<ul>
+    <li>Where to go, when to be back</li>
+  </ul>
+  <p>&nbsp;<ul>
+    <li>Friends</li>
+  </ul>
+  <p>&nbsp;</p>
+  <i><b><p>What do we really want? Obedience or Discernment? </b></i><ul>
+    <li>Which is more important?</li>
+  </ul>
+  <p>&nbsp;<ul>
+    <li>Discernment will bring greater obedience, but obedience does not necessarily lead to
+      discernment.</li>
+  </ul>
+  <p>&nbsp;</p>
+  <i><b><p>Context is everything ...</b></i><ul>
+    <li>What makes my opinion better than theirs? </li>
+  </ul>
+  <p>&nbsp;<ul>
+    <li>Besides the fact that we make them obey, why should they?</li>
+  </ul>
+  <blockquote>
+    <i><b><p ALIGN="left">The essential questions:</p>
+    </b><p ALIGN="left">What is my life about?</p>
+    <p ALIGN="left">Am I living a life worthy of imitation?</p>
+    </i><p ALIGN="left"><i>Am I being what I want</i><font SIZE="5"> </font><i>them to be?</i></p>
+    <p>&nbsp;</p>
+    <p>1. Moral authority is infinitely more powerful than force or duty:</p>
+  </blockquote>
+  <blockquote>
+    <ul>
+      <li>Respect</li>
+    </ul>
+  </blockquote>
+  <p>&nbsp;</p>
+  <blockquote>
+    <ul>
+      <li>A Coherent Life Philosophy</li>
+    </ul>
+  </blockquote>
+  <p>&nbsp;</p>
+  <blockquote>
+    <ul>
+      <li>A Realistic Model</li>
+    </ul>
+  </blockquote>
+  <p>&nbsp;</p>
+  <blockquote>
+    <p>2. How can I possibly have TIME to be so involved and think ahead about so many
+    different issues???</p>
+    <p>&nbsp;</p>
+  </blockquote>
+  <i><b><p>Urgent vs. Important:</p>
+  </b></i><p><font face="Arial">&nbsp;<img src="../graphics/ivsu1wk3.gif" alt="ivsu1wk3.gif (4558 bytes)" WIDTH="357" HEIGHT="340"></font></p>
+  </b></i></b></i></b></i></b></i>
+</blockquote>
+<i><b><i><b><i><b><i><b>
+
+<p>&nbsp;</p>
+
+<blockquote>
+  <p><img src="../graphics/ivsu2w3.gif" alt="ivsu2w3.gif (5249 bytes)" WIDTH="363" HEIGHT="341"></p>
+</blockquote>
+
+<p>&nbsp;</p>
+
+<blockquote>
+  <p ALIGN="left">Is the Important important enough?</p>
+  <p ALIGN="left">What is robbing you and your family of the quality of life that is really
+  important?</p>
+</blockquote>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><a href="index.htm"><font face="Arial">previous page</font></a> 
+  
+<!-- Footer -->
+<br clear="all" />
+<div style="float: left; margin-bottom: 1em;">
+<!-- Social Media Links -->
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher:"bfaef196-d057-4a8c-911b-995ba7aca79a", onhover:false});</script>
+<div class="social-media-links">
+  <span class="st_facebook_hcount" displayText="Facebook"></span>
+  <span class="st_twitter_hcount" displayText="Tweet"></span>
+  <span class="st_googleplus_hcount" displayText="+1"></span>
+  <span class="st_email_hcount" displayText="Email"></span>
+</div>
+<!-- /Social Media Links -->
+
+</div>
+<br clear="all" />
+<div id="footer" class="footer" align="center">
+  <p>1340 Community Park Dr., Columbus OH 43229 &nbsp;(614)&nbsp;823-6500<br />
+	Send questions or feedback to <a href="mailto:webmaster@xenos.org">webmaster@xenos.org</a></p>
+  <p><font size="2">&copy;2012 Xenos Christian Fellowship </font>
+    <em><font size="1">(See our <a href="/copyright.htm" target="_top">usage guidelines</a>.)</font></em></p>
+</div>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1769219-1']);
+ // _gaq.push(['_setDomainName', '.xenos.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- /Google Analytics -->
+
+<!-- /Footer -->
+
+</p>
+</b></i></b></i></b></i></b></i>
+</body>
+</html>

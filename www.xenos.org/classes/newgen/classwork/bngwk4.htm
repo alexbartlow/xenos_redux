@@ -1,0 +1,974 @@
+<html>
+
+<head>
+<title>Building a New Generation - Week 4</title>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<link rel="stylesheet" href="/nav/main.css" type="text/css">
+<link rel="stylesheet" href="/nav/classes.css" type="text/css">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<a name="top"></a>
+<table class="navigation" border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr><td>
+
+<!-- Transparent link over logo -->
+<a target="_top" href="/index.htm"><img id="navlogolink" src="/nav/x.gif" height="30" width="260" border="0"></a>
+
+<!-- Search form -->
+<form id="xcf-search" target="_top" name="search" method="get" action="/search/">
+  <div id="xcf-search-input">
+    <input type="text" name="q" value="Search" onFocus="this.value='';" />
+    <button type="submit" title="Search the Xenos site"><img src="/global/graphics/search.png" alt="Search" /></button>
+	</div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a target="_top" href="/news/">What's&nbsp;New?</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a target="_top" href="http://store.xenos.org/">Online&nbsp;Store</a>
+</form>
+<!-- /Search form -->
+
+<!-- Main tabs -->
+<table id="tabsMain" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td></td>
+	<!-- Set colspan to number of tabs x 4 + number of icons - 1 -->
+	<td class="tabBorder" height="1" colspan="25"><img src="/nav/x.gif" width="1" height="1"></td>
+</tr>
+<tr align="center">
+	<td class="tabBorder" width="1"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainCorner1" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain1"><a target="_top" href="/aboutxenos/index.htm">About&nbsp;Xenos</a></td>
+	<td class="tabMainCorner1" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabMainCorner2" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain2"><a target="_top" href="/homegroups/index.htm">Home&nbsp;Groups</a></td>
+	<td class="tabMainCorner2" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabMainCorner3" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain3"><a target="_top" href="/teachings/index.htm">Bible&nbsp;Teachings</a></td>
+	<td class="tabMainIcon3" valign="middle"><a target="_top" href="/teachings/index.htm"><img src="/nav/realmedia.gif" width="16" height="13" border="0"></a></td>
+	<td class="tabMainCorner3" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabMainCorner4" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain4"><a target="_top" href="/classes/index.htm">Adult&nbsp;Classes</a></td>
+	<td class="tabMainIcon4" valign="middle"><a target="_top" href="/classes/index.htm"><img src="/nav/realmedia.gif" width="16" height="13" border="0"></a></td>
+	<td class="tabMainCorner4" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabMainCorner5" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain5"><a target="_top" href="/essays/index.htm">Books&nbsp;&amp;&nbsp;Essays</a></td>
+	<td class="tabMainCorner5" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabMainCorner6" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain6"><a target="_top" href="/ministries/index.htm">Ministries</a></td>
+	<td class="tabMainCorner6" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+<!--
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabMainCorner7" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain7"><a target="_top" href="/store/index.htm">Store</a></td>
+	<td class="tabMainCorner7" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+-->
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabMainCorner8" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabMain8"><a target="_top" href="https://www.xenos.org/aboutxenos/donate.htm">Donate</a></td>
+	<td class="tabMainCorner8" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="1"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td width="3"><img src="/nav/x.gif" width="3" height="1"></td>
+</tr>
+<tr height="1">
+	<!-- Match td elements to number of tabs -->
+	<!-- Set colspan to 4 if tab has an icon -->
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder1" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder2" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder3" colspan="4"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder4" colspan="4"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder5" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder6" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+<!--
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder7" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+-->
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabMainBorder8" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+</tr>
+</table>
+<!-- /Main tabs -->
+
+<!-- Sub tabs -->
+<table id="tabsSub" border="0" cellpadding="0" cellspacing="0">
+<tr align="center">
+	<td class="tabBorder" width="1"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabSubCorner1" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabSub1"><a target="_top" href="/classes/core.htm">Core&nbsp;Classes</a></td>
+	<td class="tabSubCorner1" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabSubCorner2" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabSub2"><a target="_top" href="/classes/leaders.htm">Classes&nbsp;for&nbsp;Leaders</a></td>
+	<td class="tabSubCorner2" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabSubCorner3" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabSub3"><a target="_top" href="/classes/electives.htm">Electives</a></td>
+	<td class="tabSubCorner3" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabSubCorner4" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabSub4"><a target="_top" href="/classes/social.htm">Social&nbsp;Issues</a></td>
+	<td class="tabSubCorner4" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabSubCorner5" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabSub5"><a target="_top" href="/classes/masters/index.htm">MA&nbsp;Program</a></td>
+	<td class="tabSubCorner5" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="2"><img src="/nav/x.gif" width="2" height="1"></td>
+	<td class="tabSubCorner6" valign="top"><img src="/nav/corner_left.gif" width="3" height="3"></td>
+	<td class="tabSub6"><a target="_top" href="/classes/register.php">Class&nbsp;Registration</a></td>
+	<td class="tabSubCorner6" valign="top"><img src="/nav/corner_right.gif" width="3" height="3"></td>
+	<td class="tabBorder" width="1"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td width="3"><img src="/nav/x.gif" width="3" height="1"></td>
+</tr>
+<tr height="1">
+	<!-- Match td elements to number of tabs -->
+	<!-- Set colspan to 4 if tab has an icon -->
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabSubBorder1" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabSubBorder2" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabSubBorder3" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabSubBorder4" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabSubBorder5" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabSubBorder6" colspan="3"><img src="/nav/x.gif" width="1" height="1"></td>
+	<td class="tabBorder"><img src="/nav/x.gif" width="1" height="1"></td>
+</tr>
+</table>
+<!-- /Sub tabs -->
+
+</td></tr>
+</table>
+<!-- /Navigation -->
+
+
+
+<div align="left">
+
+<table border="0" cellpadding="0" cellspacing="0" width="600">
+  <tr>
+    <td width="300" valign="top" align="left"><b><font face="Arial" size="4">Building a New
+    Generation</font><br>
+    </b><font face="Arial" size="3"><strong>with Beth Himsworth</strong></font></td>
+      <td width="300" valign="top" align="right"><a href="index.htm"><font face="Arial" size="3">previous 
+        page</font></a></td>
+  </tr>
+</table>
+</div><i><b><i><b><i><b><i><b>
+
+<p>Introduction: Two points to clarify</p>
+
+<p>1. &quot;Temperament&quot; 
+
+<ul>
+  <li>Myers Briggs &#150; ENTJ, ISFP...</li>
+</ul>
+
+<ul>
+  <li>Type &quot;A&quot;, Type &quot;B&quot; </li>
+</ul>
+
+<ul>
+  <li>Classic 4 Temperaments</li>
+</ul>
+
+<blockquote>
+  <p>Let&#146;s not &quot;label&quot; them!</p>
+</blockquote>
+
+<ul>
+  <li>Presuppositional relating &#150; &quot;he&#146;s a Type A, therefore, he won&#146;t like
+    sitting and reading...&quot;</li>
+</ul>
+
+<ul>
+  <li>Children are still developing and changing</li>
+</ul>
+
+<ul>
+  <li>It is helpful to identify characteristics to nurture or train. </li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>2. Book Recommendations: 
+
+<ul>
+  <ul>
+    <li>The underlying thesis vs. some good or bad points: </li>
+    <ul>
+      <li>Shepherding a Child&#146;s Heart</li>
+      <li>Raising Cain</li>
+    </ul>
+  </ul>
+</ul>
+
+<p ALIGN="left">In all things - discernment</p>
+
+<p>Parenting Myth: &quot;If I love them unconditionally, they&#146;ll feel secure. &quot;</p>
+
+<p>&quot;Unconditional Love 2001 edition&quot; </p>
+
+<blockquote>
+</blockquote>
+
+<ul>
+  <ul>
+    <li>I make them feel good</li>
+    <li>I give them what they want</li>
+    <li>I help them to avoid disappointment</li>
+    <li>I shield them from frustration</li>
+    <li>I protect them from people they don&#146;t like to be around</li>
+  </ul>
+</ul>
+
+<blockquote>
+  <p>Two elements:</p>
+  <blockquote>
+    <p>1. &quot;I&quot; ... &quot;It&#146;s all up to me&quot;</p>
+    <p>2. Their comfort. &quot;Children are fragile&quot;</p>
+    <p>&nbsp;</p>
+  </blockquote>
+</blockquote>
+
+<p>Reality check ... 
+
+<ul>
+  <li>It is cruel to teach children to live out of step with reality.</li>
+</ul>
+
+<ul>
+  <li>Expectations that can never be fulfilled in adult life lead to disappointment and
+    bitterness. </li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>Living in denial of reality ...</p>
+
+<blockquote>
+  <p>Out of synch with foundational principles.</p>
+  <blockquote>
+    <blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+<ul>
+  <li>Empathy is the basis of moral development</li>
+</ul>
+
+<ul>
+  <li>Happiness is the outgrowth of healthy living, not an end to be pursued in itself</li>
+</ul>
+
+<ul>
+  <li>Security can only be developed in the context of a consistent, justice-based framework. </li>
+</ul>
+
+<blockquote>
+  <blockquote>
+    <p>&nbsp;</p>
+  </blockquote>
+</blockquote>
+
+<p>What IS &quot;Unconditional Love&quot;? 
+
+<ul>
+  <li>A deep sense of gratitude for having them in our lives.</li>
+</ul>
+
+<ul>
+  <li>An acceptance not based on their behavior.</li>
+</ul>
+
+<ul>
+  <li>Commitment without the need to control and possess or dependent upon results.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>Focus of biblical maturity: the mind</p>
+
+<blockquote>
+</blockquote>
+
+<ul>
+  <ul>
+    <li>Behavior is a result of attitudes, perceptions and values</li>
+  </ul>
+</ul>
+
+<ul>
+  <ul>
+    <li>To affect behavior, we must shape the attitudes that form it.</li>
+  </ul>
+</ul>
+
+<blockquote>
+  <p ALIGN="left">&quot;transformed by the renewing of your mind&quot; Romans 12:1-2</p>
+</blockquote>
+
+<p>What kind of transformation? 
+
+<ul>
+  <li>From immature, self focus to mature love ability</li>
+</ul>
+
+<ul>
+  <li>From unrealistic expectations of others to realistic acceptance, forgiveness and
+    patience </li>
+</ul>
+
+<ul>
+  <li>From fragile self reliance to godly dependence</li>
+</ul>
+
+<blockquote>
+  <p>What will make them strong and give them a sense of security?</p>
+  <p>&nbsp;</p>
+</blockquote>
+
+<p>What is Personal Security? 
+
+<ul>
+  <li>Confidence</li>
+</ul>
+
+<ul>
+  <li>&quot;Self esteem&quot;</li>
+</ul>
+
+<ul>
+  <li>A sense of belonging and purpose</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;<img src="../graphics/basicneedsw4.gif" alt="basicneedsw4.gif (3872 bytes)" WIDTH="487" HEIGHT="250"></p>
+
+<p>&nbsp;<img src="../graphics/support1wk4.gif" alt="support1wk4.gif (3549 bytes)" WIDTH="414" HEIGHT="382"></p>
+
+<p><img src="../graphics/support2w4.gif" alt="support2w4.gif (4147 bytes)" WIDTH="448" HEIGHT="417"></p>
+
+<p>&nbsp;</p>
+</b></i></b></i></b></i></b></i>
+
+<p><img src="../graphics/assumptw4.gif" alt="assumptw4.gif (6234 bytes)" WIDTH="544" HEIGHT="578"></p>
+
+<p>&nbsp;</p>
+
+<p><i><b>&nbsp;</p>
+
+<p>The Critical Question ... in whom and in what do I trust?</b></i> 
+
+<ul>
+  <li>My abilities</li>
+</ul>
+
+<ul>
+  <li>My resources
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    ME
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    MINE</li>
+</ul>
+
+<ul>
+  <li>My family and friends</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><img src="../graphics/foundationw4.gif" alt="foundationw4.gif (3957 bytes)" WIDTH="537" HEIGHT="257"></p>
+<i><b>
+
+<p></b></i>&nbsp;</p>
+
+<p><i><b>&quot;Movable&quot; foundations are never secure</b></i> 
+
+<ul>
+  <li>Values based on temporary attributes</li>
+</ul>
+
+<ul>
+  <li>Security based on personal ability</li>
+</ul>
+
+<ul>
+  <li>Happiness obtained from others</li>
+</ul>
+
+<p><i><b>&nbsp;</p>
+
+<p>A House Built on Rock</b></i> 
+
+<ul>
+  <li>Values based on absolute standards</li>
+</ul>
+
+<ul>
+  <li>Security based on eternal worth and acceptance</li>
+</ul>
+
+<ul>
+  <li>Happiness flowing from principled living</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><img src="../graphics/bibmodelw4.gif" alt="bibmodelw4.gif (3831 bytes)" WIDTH="552" HEIGHT="303"></p>
+
+<p>&nbsp;<img src="../graphics/trustw4.gif" alt="trustw4.gif (5088 bytes)" WIDTH="553" HEIGHT="319"></p>
+
+<blockquote>
+  <blockquote>
+    <blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+<p>&nbsp;</p>
+<i><b>
+
+<p>Two Goals:</p>
+
+<blockquote>
+</blockquote>
+
+<ul>
+  <li>Building on the Right Foundation</li>
+  <ul>
+    <li>training and life interaction</li>
+  </ul>
+</ul>
+
+<ul>
+  <li>Helping them make the Trust Transfer</li>
+  <ul>
+    <li>helping them through adversity</li>
+  </ul>
+</ul>
+
+<p><i><b>&nbsp;</p>
+
+<p><u>Building on the Rock: I am Lovable</u></b></i> 
+
+<ul>
+  <ul>
+    <ul>
+      <li>Eye contact, focused attention and physical contact: &quot;you are lovable&quot;</li>
+    </ul>
+  </ul>
+</ul>
+
+<ul>
+  <ul>
+    <ul>
+      <li>Reading and doing things together: &quot;I enjoy you&quot;</li>
+    </ul>
+  </ul>
+</ul>
+
+<ul>
+  <ul>
+    <ul>
+      <li>Grateful attitude for the relationship</li>
+    </ul>
+  </ul>
+</ul>
+
+<p>&nbsp;</p>
+<i><b>
+
+<p>Affirmation versus Flattery</p>
+
+<blockquote>
+  <p>Affirmation:</p>
+</blockquote>
+
+<ul>
+  </b></i>
+  <li>Recognition of personal worth</li>
+</ul>
+
+<ul>
+  <li>Recognition of real accomplishment</li>
+</ul>
+
+<ul>
+  <li>Recognition of personal impact</li>
+</ul>
+
+<blockquote>
+  <font SIZE="5"><p></font><i><b>Flattery : </b></i>An attempt to produce good feelings or
+  good will by the exaggeration of attributes or accomplishment</p>
+  <p>&nbsp;</p>
+  <i><b>
+</blockquote>
+
+<p>Affirmation promotes: 
+
+<ul>
+  </b></i>
+  <li>A legitimate sense of personal worth</li>
+</ul>
+
+<ul>
+  <li>An outward focus &#150; awareness of impact</li>
+</ul>
+
+<ul>
+  <li>Security of accurate self perception</li>
+</ul>
+
+<ul>
+  <li>Intimacy and honest sharing</li>
+</ul>
+<i><b>
+
+<p>Flattery promotes:</b></i> 
+
+<ul>
+  <li>Unrealistic self appraisal</li>
+</ul>
+
+<ul>
+  <li>Selfish focus</li>
+</ul>
+
+<ul>
+  <li>Insecurity</li>
+</ul>
+
+<ul>
+  <li>Distance in honest relating and sharing</li>
+</ul>
+
+<p><i><b>&nbsp;</p>
+
+<p>Building on Sand: I am Lovable</b></i> 
+
+<ul>
+  <li>Flattery and &quot;self esteem&quot; techniques</li>
+</ul>
+
+<ul>
+  <li>Distracted relating</li>
+</ul>
+
+<ul>
+  <li>Chronic anger or exasperation</li>
+</ul>
+
+<ul>
+  <li>Low investment, emotional negligence</li>
+</ul>
+<i><b>
+
+<p>&nbsp;</p>
+
+<p><u>Building on the Rock: I am Morally Acceptable</u></b></i> 
+
+<ul>
+  <li>Clear understanding of moral issues</li>
+</ul>
+
+<ul>
+  <li>Realistic rules and expectations with real and consistent consequences</li>
+</ul>
+
+<ul>
+  <li>Facing and resolving conflicts</li>
+</ul>
+
+<ul>
+  <li>Open forgiveness for wrong behavior</li>
+</ul>
+
+<ul>
+  <li>Discipline without shock or anger </li>
+</ul>
+
+<ul>
+  <li>Focus on the behavior, not the child</li>
+</ul>
+
+<ul>
+  <li>Intervene decisively before behavior gets out of control or forces a conflict</li>
+</ul>
+<i>
+
+<p>The further disobedience progresses, the more difficult it is to be objective and fair.</i></p>
+
+<p>&nbsp;</p>
+<i><b>
+
+<p>Building on Sand: I am Morally Acceptable</b></i> 
+
+<ul>
+  <li>Unclear or relativistic moral standards.</li>
+</ul>
+
+<ul>
+  <li>Unrealistic expectations for behavior and inconsistent enforcement of rules</li>
+</ul>
+
+<ul>
+  <li>Avoidance of or lack of resolution of conflict</li>
+</ul>
+
+<ul>
+  <li>Anger, rejection or manipulation</li>
+</ul>
+
+<ul>
+  <li>Failure to distinguish between childish irresponsibility and defiance.</li>
+</ul>
+
+<ul>
+  <li>Lack of sensitivity to Leadership style need</li>
+</ul>
+
+<ul>
+  <li>Blaming the behavior on teething, tiredness, being off schedule, hormones, a
+    &quot;stage&quot;, etc. (Teaching to use excuses)</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<blockquote>
+  <i><b><p>Teaching them to live in violation of their conscience:</p>
+  </b></i>
+</blockquote>
+
+<ul>
+  <ul>
+    <li>Guilt</li>
+  </ul>
+</ul>
+
+<ul>
+  <ul>
+    <li>Callousness</li>
+  </ul>
+</ul>
+
+<blockquote>
+  <blockquote>
+    <p>Neither will promote self acceptance</p>
+    <p>&nbsp;</p>
+  </blockquote>
+</blockquote>
+<i><b>
+
+<p><u>Building on the Rock: I am Capable</u></b></i> 
+
+<ul>
+  <li>Attention to their efforts; school crafts, sports, etc.</li>
+</ul>
+
+<ul>
+  <li>Point out their abilities &#150; especially to others.</li>
+</ul>
+
+<ul>
+  <li>Realistic jobs with expectation of success</li>
+</ul>
+
+<ul>
+  <li>Teach &quot;adult&quot; tasks that are useful </li>
+</ul>
+
+<ul>
+  <li>Help them with more complex projects</li>
+</ul>
+
+<p><i><b>&nbsp;</p>
+
+<p>Building on Sand: I am Capable</b></i> 
+
+<ul>
+  <li>Hurry them through tasks and be frustrated when they don&#146;t perform well</li>
+</ul>
+
+<ul>
+  <li>Be dissatisfied with what they do and hard to please; &quot;carrot motivation&quot; </li>
+</ul>
+
+<ul>
+  <li>Have low expectations and provide few challenges; &quot;you couldn&#146;t do it
+    anyway&quot;</li>
+</ul>
+
+<ul>
+  <li>Criticize them in front of others</li>
+</ul>
+<i><b>
+
+<p>Why are they so bored?</b></i> 
+
+<ul>
+  <li>Low expectations, Low challenge</li>
+</ul>
+
+<ul>
+  <li>We were created with a need to learn and to &quot;make a difference&quot; (purpose)</li>
+</ul>
+
+<ul>
+  <li>There is an inner need to strive and to overcome obstacles</li>
+</ul>
+
+<p>&nbsp;</p>
+<i><b>
+
+<p>Where does rebellion come from?</b></i> 
+
+<ul>
+  <li>Low challenge and boredom &#150; a need to LIVE. &quot;There&#146;s got to be more to
+    life than this!&quot;</li>
+</ul>
+
+<ul>
+  <li>Hopelessness &#150; &quot;It doesn&#146;t matter, I can never succeed or please them
+    anyway.&quot;</li>
+</ul>
+
+<ul>
+  <li>Relational rejection &#150; &quot;If you don&#146;t love me, I won&#146;t dance to your
+    tune.&quot;</li>
+</ul>
+
+<p>&nbsp;</p>
+<i><b>
+
+<p><u>Building on the Rock: I am at Peace with Others</u></p>
+
+<p>We know they are lovable but can they love?</b></i> 
+
+<ul>
+  <li>Affection</li>
+</ul>
+
+<ul>
+  <li>Attention</li>
+</ul>
+
+<ul>
+  <li>Loyalty</li>
+</ul>
+
+<ul>
+  <li>Forgiveness</li>
+</ul>
+
+<ul>
+  <li>Correction</li>
+</ul>
+
+<ul>
+  <li>Realistic expectations of others</li>
+</ul>
+
+<ul>
+  <li>Teach thoughtfulness; phone calls, thank yous, get well cards</li>
+</ul>
+
+<ul>
+  <li>Talk through angry episodes (not while angry!). Seek apologies and forgiveness</li>
+</ul>
+
+<p>&nbsp;</p>
+<i><b>
+
+<p>Building on Sand: I am at Peace with Others</b></i> 
+
+<ul>
+  <li>Allow them to express anger by saying/doing hurtful things</li>
+</ul>
+
+<ul>
+  <ul>
+    <li>damages relationships</li>
+  </ul>
+</ul>
+
+<ul>
+  <ul>
+    <li>promotes a &quot;root of bitterness&quot; and self justification</li>
+  </ul>
+</ul>
+
+<ul>
+  <li>Allow selfish behavior &#150; pushing, grabbing, etc</li>
+</ul>
+
+<ul>
+  <li>Give them things when they scream rudely </li>
+</ul>
+
+<blockquote>
+  <i><p ALIGN="left">How many episodes do you still remember when you felt wronged?</p>
+  </i><p>&nbsp;</p>
+</blockquote>
+<i><b>
+
+<p>As a wise master builder...</b></i></p>
+
+<p>&nbsp;</p>
+
+<blockquote>
+  <p>&quot;<i>... As a wise master builder I laid a foundation, and another is building upon
+  it. But let each man be careful how he builds upon it. For no man can lay a foundation
+  other than the one which is laid, which is Jesus Christ...&quot;</p>
+  </i><p>Paul of Tarsus, Apostle</p>
+</blockquote>
+<i><b>
+
+<p>Mission Statement:</b></i></p>
+
+<blockquote>
+  <i><p>&quot;The core of any family is what is changeless, what is always going to be there
+  &#150; shared vision and values. By writing a family mission statement, you give
+  expression to its true foundation.&quot; </p>
+  </i><p>Stephen R. Covey</p>
+  <i><b>
+</blockquote>
+
+<p>Proactive or Reactive? 
+
+<ul>
+  </b></i>
+  <li>The ability to subordinate an impulse to a value is the essence of the proactive person.
+  </li>
+</ul>
+
+<ul>
+  <li>Reactive people are driven by feelings, by circumstances, by conditions, by their
+    environment. </li>
+</ul>
+
+<ul>
+  <li>Proactive people are driven by values &#150; carefully thought about, selected and
+    internalized values. Stephen R. Covey</li>
+</ul>
+<i><b>
+
+<p>Family Mission Statement</p>
+
+<blockquote>
+</blockquote>
+
+<ul>
+  <li>What is the purpose of our family?</li>
+</ul>
+
+<ul>
+  <li>What do we hope to stand for?</li>
+</ul>
+
+<ul>
+  <li>What do we hope to accomplish? </li>
+</ul>
+
+<p>&nbsp;</p>
+
+<blockquote>
+  <i><p>&quot;Once you have a sense of mission, you have the essence of your own
+  proactivity. You have the vision and values that direct your life. </p>
+  <p>You have the basic direction from which you set your long- and short-term goals. </p>
+  <p>You have the power of a written constitution based on correct principles, against which
+  every decision concerning the most effective use of your time, your talents and your
+  energies can be effectively measured.&quot;</p>
+  </i><blockquote>
+    <blockquote>
+      <blockquote>
+        <blockquote>
+          <blockquote>
+            <blockquote>
+              <blockquote>
+                <blockquote>
+                  <blockquote>
+                    <blockquote>
+                      <blockquote>
+                        <blockquote>
+                        <p>Stephen R. Covey</p>
+                        </blockquote>
+                      </blockquote>
+                    </blockquote>
+                  </blockquote>
+                </blockquote>
+              </blockquote>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+<p>&nbsp;</p>
+
+<p><i><b><i><b><i><b><i><b><a href="index.htm"><font face="Arial">previous page</font></a> 
+  
+<!-- Footer -->
+<br clear="all" />
+<div style="float: left; margin-bottom: 1em;">
+<!-- Social Media Links -->
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher:"bfaef196-d057-4a8c-911b-995ba7aca79a", onhover:false});</script>
+<div class="social-media-links">
+  <span class="st_facebook_hcount" displayText="Facebook"></span>
+  <span class="st_twitter_hcount" displayText="Tweet"></span>
+  <span class="st_googleplus_hcount" displayText="+1"></span>
+  <span class="st_email_hcount" displayText="Email"></span>
+</div>
+<!-- /Social Media Links -->
+
+</div>
+<br clear="all" />
+<div id="footer" class="footer" align="center">
+  <p>1340 Community Park Dr., Columbus OH 43229 &nbsp;(614)&nbsp;823-6500<br />
+	Send questions or feedback to <a href="mailto:webmaster@xenos.org">webmaster@xenos.org</a></p>
+  <p><font size="2">&copy;2012 Xenos Christian Fellowship </font>
+    <em><font size="1">(See our <a href="/copyright.htm" target="_top">usage guidelines</a>.)</font></em></p>
+</div>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1769219-1']);
+ // _gaq.push(['_setDomainName', '.xenos.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- /Google Analytics -->
+
+<!-- /Footer -->
+
+  </b></i></b></i></b></i></b></i></p>
+</b></i></b></i>
+</body>
+</html>

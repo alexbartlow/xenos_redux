@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en-US"
+ xmlns:og='http://opengraphprotocol.org/schema/'
+ xmlns:fb='http://www.facebook.com/2008/fbml'> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en-US"
+ xmlns:og='http://opengraphprotocol.org/schema/'
+ xmlns:fb='http://www.facebook.com/2008/fbml'> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"
+ xmlns:og='http://opengraphprotocol.org/schema/'
+ xmlns:fb='http://www.facebook.com/2008/fbml'> <!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Urban Concern</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://urbanconcern.org/xmlrpc.php" />
+
+<!-- Begin wp_head() -->
+<link rel="alternate" type="application/rss+xml" title="Urban Concern &raquo; Feed" href="http://urbanconcern.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Urban Concern &raquo; Comments Feed" href="http://urbanconcern.org/comments/feed/" />
+<link rel='stylesheet' id='flickr-gallery-css'  href='http://urbanconcern.org/wp-content/plugins/flickr-gallery/flickr-gallery.css?ver=1.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fg-jquery-ui-css'  href='http://urbanconcern.org/wp-content/plugins/flickr-gallery/tab-theme/jquery-ui-1.7.3.css?ver=1.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-flightbox-css'  href='http://urbanconcern.org/wp-content/plugins/flickr-gallery/flightbox/jquery.flightbox.css?ver=1.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='slickr-flickr-lightbox-css'  href='http://urbanconcern.org/wp-content/plugins/slickr-flickr/lightbox/lightbox.css?ver=0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='http://urbanconcern.org/wp-includes/js/thickbox/thickbox.css?ver=20121105' type='text/css' media='all' />
+<link rel='stylesheet' id='slickr-flickr-css'  href='http://urbanconcern.org/wp-content/plugins/slickr-flickr/slickr-flickr.css?ver=1.44' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://urbanconcern.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cff-css'  href='http://urbanconcern.org/wp-content/plugins/custom-facebook-feed/css/cff-style.css?3&#038;ver=3.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='social-widget-css'  href='http://urbanconcern.org/wp-content/plugins/social-media-widget/social_widget.css?ver=3.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='leaf-style-css'  href='http://urbanconcern.org/wp-content/themes/leaf/style.css?ver=3.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ivew-slider-css-css'  href='http://urbanconcern.org/wp-content/themes/leaf/js/iView/css/iview.css?ver=3.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='leaf-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Oswald:400|PT+Sans:400,700,400italic' type='text/css' media='all' />
+<link rel='stylesheet' id='sociable3-css'  href='http://urbanconcern.org/wp-content/plugins/sociable-30/sociable.css?ver=5.13' type='text/css' media='all' />
+<script type='text/javascript' src='http://urbanconcern.org/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-content/plugins/flickr-gallery/flightbox/jquery.flightbox.js?ver=1.5.2'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-content/plugins/simple-content-reveal/js/acr-swap-display.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-content/plugins/slickr-flickr/lightbox/jquery.lightbox.js?ver=0.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/urbanconcern.org\/wp-includes\/js\/thickbox\/loadingAnimation.gif","closeImage":"http:\/\/urbanconcern.org\/wp-includes\/js\/thickbox\/tb-close.png"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-content/plugins/slickr-flickr/galleria/galleria-1.2.9.min.js?ver=1.2.9'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-content/plugins/slickr-flickr/slickr-flickr.js?ver=1.44'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-content/plugins/custom-facebook-feed/js/cff-scripts.js?3&#038;ver=3.6.1'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-content/themes/leaf/js/modernizr-2.6.2.js?ver=2.6.2'></script>
+<script type="text/javascript">
+jQuery.noConflict(); jQuery(document).ready(function() {
+slickr_flickr_start();
+});
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://urbanconcern.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://urbanconcern.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.6.1" />
+<!-- Custom Facebook Feed Custom CSS -->
+<style type="text/css">
+
+</style>
+
+	<!--Facebook Like Button OpenGraph Settings Start-->
+	<meta property="og:site_name" content="Urban Concern"/>
+	<meta property="og:title" content="Urban Concern"/>
+	<meta property="og:url" content="http://urbanconcern.org"/>
+	<meta property="fb:admins" content="" />
+	<meta property="fb:app_id" content="" />
+	<meta property="og:type" content="article" />
+		<meta property="og:type" content="blog" />
+		<!--Facebook Like Button OpenGraph Settings End-->
+	
+			<!-- added by the wordpress multibox plugin -->
+			<style type="text/css">
+			.MultiBoxClose, .MultiBoxPrevious, .MultiBoxNext, .MultiBoxNextDisabled, .MultiBoxPreviousDisabled, .MultiBoxHelpButton { 
+				behavior: url(http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/iepng/iepngfix.htc); 
+			}
+			 </style>
+			
+			<link rel="stylesheet" href="http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/multibox.css" type="text/css" media="screen" />
+			<script type="text/javascript" src="http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/mtv120/mootools-1.2-core-yc.js"></script>
+			<script type="text/javascript" src="http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/mtv120/mootools-1.2-more.js"></script>
+			<script type="text/javascript" src="http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/mtv120/overlay-1.2.js"></script>
+			<script type="text/javascript" src="http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/mtv120/multibox-1.3.1.js"></script>
+			
+			<script type="text/javascript">
+			var box = {};
+			var overlay = {};
+						window.addEvent('domready', function(){
+							box = new MultiBox('wmp', {
+								useOverlay: true,
+								initialWidth: 150,
+								initialHeight: 150,
+								showNumbers: true,
+								showControls: true,
+								path: 'http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/files/',
+								slideshow: false,								
+								slideshowTime: 8500,
+								descClassName: 'wmpDesc' });
+							});
+		 </script>
+			
+			
+			 <style type="text/css" media="screen">
+			.MultiBoxHelpButton {
+				
+			}
+			</style>
+			
+			
+				 <style type="text/css" media="screen">
+				.MultiBoxContainer {
+				border-color: #3399CC;
+				border-width: 10px;
+				padding: 0px;
+				-moz-border-radius: 0px;
+				-khtml-border-radius: 0px;
+				-webkit-border-radius: 0px;
+				background-color: #FFFFFF;
+				}
+				.MultiBoxControls {background-color: #FFFFFF;}
+				.MultiBoxTitle {color: #FFFFFF;}
+				.MultiBoxNumber {color: #FFFFFF;}
+				.MultiBoxDescription {color: #FFFFFF;}
+				.MultiBoxLoading { background: url(http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/images/loader.gif) no-repeat center;}
+				.MultiBoxClose {background: url(http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/images/close.png) no-repeat;}
+				.MultiBoxPrevious {background: url(http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/images/left.png) no-repeat;}
+				.MultiBoxPlayPrevious {background: url(http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/images/leftplay.png) no-repeat;}
+				.MultiBoxNext {background: url(http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/images/right.png) no-repeat;}
+				.MultiBoxPlayNext {background: url(http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/images/play.png) no-repeat;}
+				.MultiBoxPlayNextPause {background: url(http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/images/pause.png) no-repeat;}
+				.MultiBoxPlayPreviousPause {background: url(http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/images/pause.png) no-repeat;}
+				.MultiBoxPlayPreviousDisabled {background: url(http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/images/leftplayDisabled.png) no-repeat;}
+				.MultiBoxPlayNextDisabled {background: url(http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/images/playDisabled.png) no-repeat;}
+				.MultiBoxNextDisabled {background: url(http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/images/rightDisabled.png) no-repeat;}
+				.MultiBoxPreviousDisabled {background: url(http://urbanconcern.org/wp-content/plugins/wordpress-multibox-plugin/images/leftDisabled.png) no-repeat;}
+				#Overlay { background-color: #000000;}
+				</style>
+			
+  		<!-- added by the wordpress multibox plugin --><!-- Begin Leaf css -->
+<style type="text/css">
+
+a:hover, .site-header h1 a:hover, .site-header h2 a:hover, .comments-link a:hover, .entry-meta a:hover, .widget-area .widget a:hover, .footer-navigation li a:hover, .copyright a:hover, .site-info a:hover, .comment-content .reply a:hover, #respond #submit:hover { color: #3399cc;}
+.image-tag, .aside-format, .audio-format, .gallery-format, .image-format, .link-format, .video-format, .search-bar .submit, .iview-caption.caption3, .pagination .current, .pagination a:hover { background-color: #3399cc;}
+.search-bar:after {border-right-color: #3399cc;}
+
+
+.footer-info .site-info {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+</style>
+<!-- End Leaf css -->
+<!-- All in one Favicon 4.3 --><link rel="shortcut icon" href="http://urbanconcern.org/wp-content/uploads/2010/11/UC-Logo-White-on-Blue-150x150.jpg" />
+
+<!-- All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[687,707] -->
+<meta name="description" content="We had a full house at Xenos 4th St. Pavillion last weekend for training with Dr. Scott Larson. Youth workers from ministries all over Columbus met to learn" />
+
+<meta name="keywords" content="Urban Concern, Xenos Christian Fellowship, South Linden, Columbus, Inner City Ministry, Christian, Harambee Christian School, After School Program, Bible Studies" />
+
+<link rel="canonical" href="http://urbanconcern.org" />
+<!-- /all in one seo pack -->
+			<script type="text/javascript">
+				var get_sizes = null;
+							</script>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #EEEEEE; background-image: url('http://urbanconcern.org/wp-content/themes/leaf/images/body-BG.png'); background-repeat: repeat; background-position: top left; background-attachment: fixed; }
+</style>
+<!-- End wp_head() -->
+</head>
+
+<body class="home blog custom-background single-author">
+
+<div id="page" class="hfeed site">
+
+	<div id="head-container">
+	
+				
+						
+			<div class="top-nav row">
+				
+				<nav role="navigation" class="site-navigation header-navigation twelve columns">
+					<h1 class="assistive-text">Header Menu</h1>
+					<div class="assistive-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+					<div class="menu-header-container"><ul id="menu-header" class="header-menu"><li id="menu-item-2116" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-2116"><a href="http://urbanconcern.org/">Home</a></li>
+<li id="menu-item-2113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2113"><a href="http://urbanconcern.org/volunteer/">Volunteer</a></li>
+<li id="menu-item-2114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2114"><a href="http://urbanconcern.org/give/">Donate</a></li>
+<li id="menu-item-2115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2115"><a href="http://urbanconcern.org/contact/">Contact</a></li>
+</ul></div>				</nav><!-- .site-navigation .header-navigation -->
+					
+			</div><!-- .top-nav .row -->
+					
+		
+		<div class="row">
+			<header id="masthead" class="site-header row twelve columns" role="banner">
+
+				<div class="row">
+					<div class="header-group six columns">
+					
+													<a href="http://urbanconcern.org/" title="Urban Concern" rel="home">
+								<img src="http://urbanconcern.org/wp-content/uploads/2013/06/cropped-cropped-UC-Logo-Blue.jpg" width="805" height="311" alt="" />
+							</a>
+											</div><!-- .header-group .six .columns -->
+					
+								<div class="widget-area six columns" role="complementary">
+			
+			<aside id="widget_sp_image-3" class="widget widget_sp_image"><a href="http://www.xenos.org" target="_blank" class="widget_sp_image-image-link" title=""><img width="79" height="85" alt="" class="attachment-79x85 aligncenter" style="max-width: 79px;max-height: 85px;" src="http://urbanconcern.org/wp-content/uploads/2010/09/xenoslogo-79x85.jpg" /></a></aside><aside id="social-widget-4" class="widget Social_Widget"><div class="socialmedia-buttons smw_center"><a href="http://www.facebook.com/urbanconcern"  target="_blank"><img width="32" height="32" src="http://urbanconcern.org/wp-content/plugins/social-media-widget/images/sketch/32/facebook.png" 
+				alt="Follow Us on Facebook" 
+				title="Follow Us on Facebook" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade" /></a><a href="http://www.twitter.com/urbanconcern"  target="_blank"><img width="32" height="32" src="http://urbanconcern.org/wp-content/plugins/social-media-widget/images/sketch/32/twitter.png" 
+				alt="Follow Us on Twitter" 
+				title="Follow Us on Twitter" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade" /></a><a href="http://www.flickr.com/photos/urbanconcern/sets/"  target="_blank"><img width="32" height="32" src="http://urbanconcern.org/wp-content/plugins/social-media-widget/images/sketch/32/flickr.png" 
+				alt="Follow Us on Flickr" 
+				title="Follow Us on Flickr" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade" /></a><a href="http://www.youtube.com/user/urbanconcern"  target="_blank"><img width="32" height="32" src="http://urbanconcern.org/wp-content/plugins/social-media-widget/images/sketch/32/youtube.png" 
+				alt="Follow Us on YouTube" 
+				title="Follow Us on YouTube" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade" /></a><a href="http://urbanconcern.org/blog"  target="_blank"><img width="32" height="32" src="http://urbanconcern.org/wp-content/plugins/social-media-widget/images/sketch/32/rss.png" 
+				alt="Follow Us on RSS" 
+				title="Follow Us on RSS" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade" /></a></div></aside>			
+		</div><!-- .widget-area .six .columns -->
+							
+				</div><!-- .row -->
+				
+				<nav role="navigation" class="site-navigation main-navigation">
+					<h1 class="assistive-text">Menu</h1>
+					<div class="assistive-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+
+					<div class="menu-home-container"><ul id="menu-home" class="sf-menu"><li id="menu-item-2122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2122"><a href="http://urbanconcern.org/about/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-2123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2123"><a href="http://urbanconcern.org/about/leadership/">Our Team</a></li>
+	<li id="menu-item-2125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2125"><a href="http://urbanconcern.org/about/values/">Our Values</a></li>
+</ul>
+</li>
+<li id="menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-546"><a href="http://urbanconcern.org/harambee/about/">Harambee Christian School</a>
+<ul class="sub-menu">
+	<li id="menu-item-542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-542"><a href="http://urbanconcern.org/harambee/asp/">After School Program</a></li>
+	<li id="menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-545"><a href="http://urbanconcern.org/harambee/harambeeimports/">Economic Literacy</a></li>
+</ul>
+</li>
+<li id="menu-item-551" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-551"><a href="http://urbanconcern.org/spiritual/youthministries">Youth Ministries</a>
+<ul class="sub-menu">
+	<li id="menu-item-2550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2550"><a href="http://urbanconcern.org/biblestudyresources/">Bible Study Resources</a></li>
+	<li id="menu-item-1364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1364"><a href="http://urbanconcern.org/what-we-believe/">What We Believe</a></li>
+</ul>
+</li>
+<li id="menu-item-540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-540"><a href="http://urbanconcern.org/family/">Family &#038; Community</a></li>
+<li id="menu-item-1698" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1698"><a href="http://urbanconcern.org/blog/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-1702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1702"><a href="http://urbanconcern.org/community-partners/">Community Partners</a></li>
+</ul>
+</li>
+<li id="menu-item-2112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2112"><a href="http://urbanconcern.org/harambee-student-blog/">Student Blog</a></li>
+</ul></div>				</nav><!-- .site-navigation .main-navigation -->
+				
+			</header><!-- #masthead .site-header .twelve .columns -->
+		</div><!-- .row -->
+	</div><!-- #head-container -->
+	
+		
+	<div id="main" class="row">
+	<div id="primary" class="site-content eight columns">
+		<div id="content" role="main">
+			<article class="post-home">
+
+								
+				<div id="iview">
+				
+					  
+
+					
+					
+												
+						<a href="http://urbanconcern.org/2014/03/our-2014-annual-report-is-here/" data-iview:image="http://urbanconcern.org/wp-content/uploads/2014/03/ARSlider4-720x316.jpg">
+							<span class="iview-caption caption3" data-x="15" data-y="212" data-transition="expandright"><h2>Our 2014 Annual Report is here!</h2></span>
+							<span class="iview-caption caption1" data-x="15" data-y="258" data-transition="expandleft"><p>New leadership and strategic initiatives for serving at-risk youth in our community made 2013 a year of growth and change for Urban Concern. Harambee students continue to out perform themselves academically. Youth ministries are growing&hellip;</p></span>
+						</a>
+
+					
+												
+						<a href="http://urbanconcern.org/2014/01/our-new-years-resolution-focus-on-youth/" data-iview:image="http://urbanconcern.org/wp-content/uploads/2014/01/ucstudentsslider-720x312.jpg">
+							<span class="iview-caption caption3" data-x="15" data-y="212" data-transition="expandright"><h2>Our New Year&#8217;s resolution: Focus on Youth</h2></span>
+							<span class="iview-caption caption1" data-x="15" data-y="258" data-transition="expandleft"><p>Since 1990, Urban Concern has worked to empower people of all ages in our community. And we have always recognized the importance of taking a holistic approach to community development. But as we consider the&hellip;</p></span>
+						</a>
+
+					
+												
+						<a href="http://urbanconcern.org/2014/01/harambee-teacher-honored-as-greater-linden-teacher-of-the-year/" data-iview:image="http://urbanconcern.org/wp-content/uploads/2013/12/teacheroftheyear-720x540.jpg">
+							<span class="iview-caption caption3" data-x="15" data-y="212" data-transition="expandright"><h2>Harambee teacher honored as Greater Linden Teacher of the Year!</h2></span>
+							<span class="iview-caption caption1" data-x="15" data-y="258" data-transition="expandleft"><p>We are proud to announce that the Harambee Middle School Teacher and Director, Michael Harvin, was honored as Teacher of the Year at the Greater Linden Awards &amp; Gratitude Celebration on November 14th. The award&hellip;</p></span>
+						</a>
+
+					
+												
+						<a href="http://urbanconcern.org/2013/11/your-contribution-can-help-raise-up-leaders-at-harambee-christian-school/" data-iview:image="http://urbanconcern.org/wp-content/uploads/2011/06/UCLB1.jpg">
+							<span class="iview-caption caption3" data-x="15" data-y="212" data-transition="expandright"><h2>Your contribution can help raise up leaders at Harambee Christian School</h2></span>
+							<span class="iview-caption caption1" data-x="15" data-y="258" data-transition="expandleft"><p>Dear Friends, As 2013 draws to close, I am grateful for the many ways I&#8217;ve seen God work this year in the lives of so many young people through Urban Concern. Lighthouse and the accompanying&hellip;</p></span>
+						</a>
+
+										
+				</div><!-- #iview -->
+				
+				
+				
+				
+								
+					<!-- Begin featured. -->
+				
+																		
+					<!-- End featured. -->
+					
+								
+				
+								
+				
+										
+					<!-- Begin categories. -->
+			
+					
+						
+						
+														
+							
+							<h3 class="divider-title"><span><a href="http://urbanconcern.org/category/harambee-blog/" title="Harambee Student Blog">Harambee Student Blog</a></span></h3>
+
+							<div class="home-cats row">
+
+								
+															
+								
+									<div class="five columns">
+
+										<a href="http://urbanconcern.org/2014/03/on-martin-luther-king-jr/">
+											<img src="http://urbanconcern.org/wp-content/uploads/2014/03/mlk.jpg" alt="On Martin Luther King Jr." class="attachment-post-thumbnail wp-post-image">
+										</a>
+								
+										<h2 class="entry-title">
+											<a href="http://urbanconcern.org/2014/03/on-martin-luther-king-jr/" title="On Martin Luther King Jr." rel="bookmark">On Martin Luther King Jr.</a>
+										</h2>
+								
+										<div class="entry-summary">
+											<p>&#8220;Dr. Martin Luther King Jr. is one of my favorite heroes of all time. Dr. King was born in 1929. When Dr.&hellip;</p>										</div><!-- .entry-summary -->
+								
+										<p class="read-more-link"><a href="http://urbanconcern.org/2014/03/on-martin-luther-king-jr/">Full Article &rarr;</a></p>
+
+									</div><!-- .five .columns -->
+
+								
+								
+															
+								
+									<div class="vertical-divider seven columns">
+									<div class="horizontal-divider row">
+								
+										<div class="four columns">
+
+											<a href="http://urbanconcern.org/2014/03/about-abraham-lincoln/">
+												<img src="http://urbanconcern.org/wp-content/uploads/2014/03/abelincoln-300x300.jpg" alt="On Abraham Lincoln" class="attachment-post-thumbnail wp-post-image">
+											</a>
+											
+										</div><!-- .four .columns -->
+									
+										<div class="eight columns">
+										
+											<h2 class="entry-title">
+												<a href="http://urbanconcern.org/2014/03/about-abraham-lincoln/" title="On Abraham Lincoln" rel="bookmark">On Abraham Lincoln</a>
+											</h2>
+											
+											<div class="entry-summary">
+												<p>&#8220;The reason I liked Abraham Lincoln is because when I&hellip;</p>											</div><!-- .entry-summary -->
+											
+											<p class="read-more-link"><a href="http://urbanconcern.org/2014/03/about-abraham-lincoln/">Full Article &rarr;</a></p>
+											
+										</div><!-- .eight .columns -->
+									
+									</div><!-- .horizontal-divider .row -->
+								
+								
+								
+															
+								
+									
+									<div class="horizontal-divider row">
+								
+										<div class="four columns">
+
+											<a href="http://urbanconcern.org/2013/10/harambee-cup-song/">
+												<img src="http://urbanconcern.org/wp-content/uploads/2013/10/youtube-300x203.jpg" alt="Harambee Cup Song" class="attachment-post-thumbnail wp-post-image">
+											</a>
+											
+										</div><!-- .four .columns -->
+									
+										<div class="eight columns">
+										
+											<h2 class="entry-title">
+												<a href="http://urbanconcern.org/2013/10/harambee-cup-song/" title="Harambee Cup Song" rel="bookmark">Harambee Cup Song</a>
+											</h2>
+											
+											<div class="entry-summary">
+												<p>Take a look at our middle schoolers making some sweet&hellip;</p>											</div><!-- .entry-summary -->
+											
+											<p class="read-more-link"><a href="http://urbanconcern.org/2013/10/harambee-cup-song/">Full Article &rarr;</a></p>
+											
+										</div><!-- .eight .columns -->
+									
+									</div><!-- .horizontal-divider .row -->
+								
+								
+								
+															
+								
+									
+									<div class="horizontal-divider row">
+								
+										<div class="four columns">
+
+											<a href="http://urbanconcern.org/2013/10/oaa-and-map-results-are-in/">
+												<img src="http://urbanconcern.org/wp-content/uploads/2013/10/1213HCSresults-300x244.jpg" alt="OAA and MAP results are in!" class="attachment-post-thumbnail wp-post-image">
+											</a>
+											
+										</div><!-- .four .columns -->
+									
+										<div class="eight columns">
+										
+											<h2 class="entry-title">
+												<a href="http://urbanconcern.org/2013/10/oaa-and-map-results-are-in/" title="OAA and MAP results are in!" rel="bookmark">OAA and MAP results are in!</a>
+											</h2>
+											
+											<div class="entry-summary">
+												<p>2012-13 was another strong year academically for Harambee Christian School&hellip;</p>											</div><!-- .entry-summary -->
+											
+											<p class="read-more-link"><a href="http://urbanconcern.org/2013/10/oaa-and-map-results-are-in/">Full Article &rarr;</a></p>
+											
+										</div><!-- .eight .columns -->
+									
+									</div><!-- .horizontal-divider .row -->
+								
+								
+														
+								</div><!-- .vertical-divider .seven .columns -->						
+							</div><!-- .home-cats .row -->
+
+							<!-- End categories. -->
+
+						
+					
+						
+						
+														
+							
+							<h3 class="divider-title"><span><a href="http://urbanconcern.org/category/urban-concern/" title="Urban Concern News">Urban Concern News</a></span></h3>
+
+							<div class="home-cats row">
+
+								
+															
+								
+									<div class="five columns">
+
+										<a href="http://urbanconcern.org/2014/03/bible-study-resources-now-available/">
+											<img src="http://urbanconcern.org/wp-content/uploads/2014/03/scottlarsonevent-300x224.jpg" alt="Bible study resources now available" class="attachment-post-thumbnail wp-post-image">
+										</a>
+								
+										<h2 class="entry-title">
+											<a href="http://urbanconcern.org/2014/03/bible-study-resources-now-available/" title="Bible study resources now available" rel="bookmark">Bible study resources now available</a>
+										</h2>
+								
+										<div class="entry-summary">
+											<p>We had a full house at Xenos 4th St. Pavillion last weekend for training with Dr. Scott Larson. Youth workers from ministries&hellip;</p>										</div><!-- .entry-summary -->
+								
+										<p class="read-more-link"><a href="http://urbanconcern.org/2014/03/bible-study-resources-now-available/">Full Article &rarr;</a></p>
+
+									</div><!-- .five .columns -->
+
+								
+								
+															
+								
+									<div class="vertical-divider seven columns">
+									<div class="horizontal-divider row">
+								
+										<div class="four columns">
+
+											<a href="http://urbanconcern.org/2014/01/scottlarsonevent/">
+												<img src="http://urbanconcern.org/wp-content/uploads/2013/11/48honorroll-300x225.jpg" alt="Register for training with Dr. Scott Larson!" class="attachment-post-thumbnail wp-post-image">
+											</a>
+											
+										</div><!-- .four .columns -->
+									
+										<div class="eight columns">
+										
+											<h2 class="entry-title">
+												<a href="http://urbanconcern.org/2014/01/scottlarsonevent/" title="Register for training with Dr. Scott Larson!" rel="bookmark">Register for training with Dr. Scott Larson!</a>
+											</h2>
+											
+											<div class="entry-summary">
+												<p>To RSVP for this event, please click here. Urban Concern is&hellip;</p>											</div><!-- .entry-summary -->
+											
+											<p class="read-more-link"><a href="http://urbanconcern.org/2014/01/scottlarsonevent/">Full Article &rarr;</a></p>
+											
+										</div><!-- .eight .columns -->
+									
+									</div><!-- .horizontal-divider .row -->
+								
+								
+								
+															
+								
+									
+									<div class="horizontal-divider row">
+								
+										<div class="four columns">
+
+											<a href="http://urbanconcern.org/2013/10/harry-c-moores-foundation-supports-2013-14-asp/">
+												<img src="http://urbanconcern.org/wp-content/uploads/2011/10/candid_6-300x200.jpg" alt="Harry C. Moores Foundation supports 2013-14 ASP!" class="attachment-post-thumbnail wp-post-image">
+											</a>
+											
+										</div><!-- .four .columns -->
+									
+										<div class="eight columns">
+										
+											<h2 class="entry-title">
+												<a href="http://urbanconcern.org/2013/10/harry-c-moores-foundation-supports-2013-14-asp/" title="Harry C. Moores Foundation supports 2013-14 ASP!" rel="bookmark">Harry C. Moores Foundation supports 2013-14 ASP!</a>
+											</h2>
+											
+											<div class="entry-summary">
+												<p>Please join us in thanking The Harry C. Moores Foundation for their&hellip;</p>											</div><!-- .entry-summary -->
+											
+											<p class="read-more-link"><a href="http://urbanconcern.org/2013/10/harry-c-moores-foundation-supports-2013-14-asp/">Full Article &rarr;</a></p>
+											
+										</div><!-- .eight .columns -->
+									
+									</div><!-- .horizontal-divider .row -->
+								
+								
+								
+															
+								
+									
+									<div class="horizontal-divider row">
+								
+										<div class="four columns">
+
+											<a href="http://urbanconcern.org/2013/10/big-give-results-are-in/">
+												<img src="http://urbanconcern.org/wp-content/uploads/2013/10/biggivety-300x84.jpg" alt="Big Give results are in!" class="attachment-post-thumbnail wp-post-image">
+											</a>
+											
+										</div><!-- .four .columns -->
+									
+										<div class="eight columns">
+										
+											<h2 class="entry-title">
+												<a href="http://urbanconcern.org/2013/10/big-give-results-are-in/" title="Big Give results are in!" rel="bookmark">Big Give results are in!</a>
+											</h2>
+											
+											<div class="entry-summary">
+												<p>We are thrilled to report that $21,475.76 was raised for Urban Concern&hellip;</p>											</div><!-- .entry-summary -->
+											
+											<p class="read-more-link"><a href="http://urbanconcern.org/2013/10/big-give-results-are-in/">Full Article &rarr;</a></p>
+											
+										</div><!-- .eight .columns -->
+									
+									</div><!-- .horizontal-divider .row -->
+								
+								
+														
+								</div><!-- .vertical-divider .seven .columns -->						
+							</div><!-- .home-cats .row -->
+
+							<!-- End categories. -->
+
+						
+					
+				
+				
+								
+				
+				
+								
+					
+
+				
+
+			</article><!-- .post-home -->
+		</div><!-- #content -->
+	</div><!-- #primary .site-content .eight .columns-->
+
+
+			<div id="secondary" class="widget-area four columns" role="complementary">
+			
+						
+			<aside id="html_javascript_adder-3" class="widget widget_html_javascript_adder">
+
+<!-- Start - HTML Javascript Adder plugin v3.7 -->
+
+<div class="hjawidget textwidget">
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <div align="center">
+      <input name="cmd" value="_s-xclick" type="hidden">
+      <input name="hosted_button_id" value="5405073" type="hidden">
+      <input src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" type="image" border="0">
+      <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" border="0" height="1">
+      </div>
+    </form>
+<p align="center">
+
+</div>
+<!-- End - HTML Javascript Adder plugin v3.7 -->
+
+</aside><aside id="text-3" class="widget widget_text"><h3 class="widget-title"><span>Photostream</span></h3>			<div class="textwidget"><div id="APTFF_by_TAP-by-shortcode-118" class="AlpinePhotoTiles_inpost_container"><!-- Using AlpinePT for Flickr v1.2.5 with Flickr API V2 --><!-- Success using wp_remote_get() and PHP_Serial --><!-- Retrieved from cache --><div id="id118-AlpinePhotoTiles_container" class="AlpinePhotoTiles_container_class"><div id="id118-cascade-parent" class="AlpinePhotoTiles_parent_class" style="width:100%;max-width:100%;padding:0px;margin:0px auto;text-align:center;"><div class="AlpinePhotoTiles_cascade_column" style="width:50%;float:left;margin:0;"><div class="AlpinePhotoTiles_cascade_column_inner" style="display:block;margin:0 3px;overflow:hidden;"><a href="http://farm4.staticflickr.com/3750/9094168500_7cd3b495a1_o.jpg" class="AlpinePhotoTiles-link AlpinePhotoTiles-lightbox" title='Flickr4' alt='Flickr4'><img id="id118-tile-0" class="AlpinePhotoTiles-image AlpinePhotoTiles-img-shadow AlpinePhotoTiles-img-noborder AlpinePhotoTiles-img-corners AlpinePhotoTiles-img-nohighlight" src="http://farm4.staticflickr.com/3750/9094168500_25fbd72fa2_n.jpg" title='Flickr4' alt='Flickr4' border="0" hspace="0" vspace="0" style="margin:1px 0 5px 0;padding:0;max-width:100%;"  /></a><a href="http://farm8.staticflickr.com/7431/9091947883_9841f87007_c.jpg" class="AlpinePhotoTiles-link AlpinePhotoTiles-lightbox" title='Flickr1' alt='Flickr1'><img id="id118-tile-2" class="AlpinePhotoTiles-image AlpinePhotoTiles-img-shadow AlpinePhotoTiles-img-noborder AlpinePhotoTiles-img-corners AlpinePhotoTiles-img-nohighlight" src="http://farm8.staticflickr.com/7431/9091947883_9841f87007_n.jpg" title='Flickr1' alt='Flickr1' border="0" hspace="0" vspace="0" style="margin:1px 0 5px 0;padding:0;max-width:100%;"  /></a><a href="http://farm3.staticflickr.com/2854/9092062307_e6c89b1f60_c.jpg" class="AlpinePhotoTiles-link AlpinePhotoTiles-lightbox" title='Flickr5' alt='Flickr5'><img id="id118-tile-4" class="AlpinePhotoTiles-image AlpinePhotoTiles-img-shadow AlpinePhotoTiles-img-noborder AlpinePhotoTiles-img-corners AlpinePhotoTiles-img-nohighlight" src="http://farm3.staticflickr.com/2854/9092062307_e6c89b1f60_n.jpg" title='Flickr5' alt='Flickr5' border="0" hspace="0" vspace="0" style="margin:1px 0 5px 0;padding:0;max-width:100%;"  /></a></div></div><div class="AlpinePhotoTiles_cascade_column" style="width:50%;float:left;margin:0;"><div class="AlpinePhotoTiles_cascade_column_inner" style="display:block;margin:0 3px;overflow:hidden;"><a href="http://farm8.staticflickr.com/7361/9094168550_ef6330b6c3_c.jpg" class="AlpinePhotoTiles-link AlpinePhotoTiles-lightbox" title='Flickr3' alt='Flickr3'><img id="id118-tile-1" class="AlpinePhotoTiles-image AlpinePhotoTiles-img-shadow AlpinePhotoTiles-img-noborder AlpinePhotoTiles-img-corners AlpinePhotoTiles-img-nohighlight" src="http://farm8.staticflickr.com/7361/9094168550_ef6330b6c3_n.jpg" title='Flickr3' alt='Flickr3' border="0" hspace="0" vspace="0" style="margin:1px 0 5px 0;padding:0;max-width:100%;"  /></a><a href="http://farm8.staticflickr.com/7370/9091947817_3c68467ec8_c.jpg" class="AlpinePhotoTiles-link AlpinePhotoTiles-lightbox" title='Flickr2' alt='Flickr2'><img id="id118-tile-3" class="AlpinePhotoTiles-image AlpinePhotoTiles-img-shadow AlpinePhotoTiles-img-noborder AlpinePhotoTiles-img-corners AlpinePhotoTiles-img-nohighlight" src="http://farm8.staticflickr.com/7370/9091947817_3c68467ec8_n.jpg" title='Flickr2' alt='Flickr2' border="0" hspace="0" vspace="0" style="margin:1px 0 5px 0;padding:0;max-width:100%;"  /></a><a href="http://farm8.staticflickr.com/7440/9092062245_cc72f223ab_c.jpg" class="AlpinePhotoTiles-link AlpinePhotoTiles-lightbox" title='Flickr6' alt='Flickr6'><img id="id118-tile-5" class="AlpinePhotoTiles-image AlpinePhotoTiles-img-shadow AlpinePhotoTiles-img-noborder AlpinePhotoTiles-img-corners AlpinePhotoTiles-img-nohighlight" src="http://farm8.staticflickr.com/7440/9092062245_cc72f223ab_n.jpg" title='Flickr6' alt='Flickr6' border="0" hspace="0" vspace="0" style="margin:1px 0 5px 0;padding:0;max-width:100%;"  /></a></div></div><div class="AlpinePhotoTiles_breakline"></div></div><div class="AlpinePhotoTiles_breakline"></div></div><div class="AlpinePhotoTiles_breakline"></div>
+<script>
+  jQuery(window).load(function() {
+    if( !jQuery().fancyboxForAlpine ){
+      var css = 'http://urbanconcern.org/wp-content/plugins/alpine-photo-tile-for-flickr/js/fancybox-alpine-safemode/jquery.fancyboxForAlpine-1.3.4.css?ver=1.3.4';
+      var link = jQuery(document.createElement('link')).attr({'rel':'stylesheet','href':css,'type':'text/css','media':'screen'});
+      jQuery.getScript('http://urbanconcern.org/wp-content/plugins/alpine-photo-tile-for-flickr/js/fancybox-alpine-safemode/jquery.fancyboxForAlpine-1.3.4.pack.js?ver=1.3.4', function(){
+        if(document.createStyleSheet){
+          document.createStyleSheet(css);
+        }else{
+          jQuery('head').append(link);
+        }
+        jQuery( '#id118-AlpinePhotoTiles_container a.AlpinePhotoTiles-lightbox' ).attr( 'rel', 'alpine-fancybox-safemode-id118' );if(jQuery().fancyboxForAlpine){jQuery( 'a[rel^=\'alpine-fancybox-safemode-id118\']' ).fancyboxForAlpine( { titleShow: false, overlayOpacity: .8, overlayColor: '#000', titleShow: true, titlePosition: 'inside' } );}
+      });
+    }else{
+      jQuery( '#id118-AlpinePhotoTiles_container a.AlpinePhotoTiles-lightbox' ).attr( 'rel', 'alpine-fancybox-safemode-id118' );if(jQuery().fancyboxForAlpine){jQuery( 'a[rel^=\'alpine-fancybox-safemode-id118\']' ).fancyboxForAlpine( { titleShow: false, overlayOpacity: .8, overlayColor: '#000', titleShow: true, titlePosition: 'inside' } );}
+    }
+  });
+</script>
+<script>
+  jQuery(window).load(function() {
+    if(jQuery().AlpineAdjustBordersPlugin ){
+      jQuery('#id118-cascade-parent').AlpineAdjustBordersPlugin({
+        highlight:'#169cac'
+      });
+    }else{
+      var css = 'http://urbanconcern.org/wp-content/plugins/alpine-photo-tile-for-flickr/css/AlpinePhotoTiles_style.css';
+      var link = jQuery(document.createElement('link')).attr({'rel':'stylesheet','href':css,'type':'text/css','media':'screen'});
+      jQuery.getScript('http://urbanconcern.org/wp-content/plugins/alpine-photo-tile-for-flickr/js/AlpinePhotoTiles_script.js', function(){
+        if(document.createStyleSheet){
+          document.createStyleSheet(css);
+        }else{
+          jQuery('head').append(link);
+        }
+        if(jQuery().AlpineAdjustBordersPlugin ){
+          jQuery('#id118-cascade-parent').AlpineAdjustBordersPlugin({
+            highlight:'#169cac'
+          });
+        } 
+      });
+    }
+  });
+</script></div></div>
+		</aside>			
+						
+		</div><!-- #secondary .widget-area .four .columns -->
+		</div><!-- #main .row -->
+
+		
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="row footer-row">
+			
+	
+					</div><!-- .row .footer-row -->
+		
+		
+		<div class="footer-info">
+			<div class="row info-wrap">
+			
+				<div class="copyright six columns">
+					&copy; 2014 <a href="http://urbanconcern.org/" title="Urban Concern">Urban Concern</a>
+				</div><!-- .copyright .six .columns -->
+
+				<div class="site-info six columns">
+
+					<a href="http://fatboythemes.com/themes/leaf/" title="Leaf Theme">Leaf Theme</a> 
+					powered by 
+					<a href="http://wordpress.org/" title="WordPress">WordPress</a>
+
+				</div><!-- .site-info .six .columns -->
+				
+			</div><!-- .row info-wrap-->
+		</div><!-- .footer-info -->
+		
+		<div class="scroll-to-top"></div><!-- .scroll-to-top -->
+		
+	</footer><!-- #colophon .site-footer -->
+</div><!-- #page .hfeed .site -->
+
+<!-- Begin wp_footer() -->
+<!-- Custom Facebook Feed JS -->
+<script type="text/javascript">
+var siteURL = "http://urbanconcern.org";
+var rootPath = "%2Fmnt%2Fstorage%2Fapache-sites%2Furbanconcern%2F";
+</script>
+			<script type="text/javascript">
+				(function($){
+					$(function(){
+						$("img.flickr.square,img.flickr.thumbnail,img.flickr.small").flightbox({size_callback: get_sizes});
+					});
+				})(jQuery);
+			</script>
+		<link rel='stylesheet' id='alpine-fancybox-stylesheet-css'  href='http://urbanconcern.org/wp-content/plugins/alpine-photo-tile-for-flickr/js/fancybox-alpine-safemode/jquery.fancyboxForAlpine-1.3.4.css?ver=3.6.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='AlpinePhotoTiles_style-css'  href='http://urbanconcern.org/wp-content/plugins/alpine-photo-tile-for-flickr/css/AlpinePhotoTiles_style.css?ver=1.2.5' type='text/css' media='all' />
+<script type='text/javascript' src='http://urbanconcern.org/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.36.0-2013.06.16'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/urbanconcern.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.4.2'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-content/themes/leaf/js/scripts.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-content/themes/leaf/js/plugins.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-content/themes/leaf/js/iView/iview.min.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-content/themes/leaf/js/iView/jquery.easing.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-content/plugins/alpine-photo-tile-for-flickr/js/fancybox-alpine-safemode/jquery.fancyboxForAlpine-1.3.4.pack.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://urbanconcern.org/wp-content/plugins/alpine-photo-tile-for-flickr/js/AlpinePhotoTiles_script.js?ver=1.2.5'></script>
+	
+		<script type="text/javascript">
+			jQuery(document).ready(function($){
+				$('#iview').iView({
+					fx: 'slide-in-left', // Slider transition.
+					captionSpeed: 700, // Caption transition speed.
+					captionEasing: 'easeInExpo',
+					pauseTime: 7000, // Slider speed.
+					pauseOnHover: true,
+					directionNavHoverOpacity: 0,
+					timer: "Bar",
+					timerDiameter: "100%",
+					timerX: 1,
+					timerY: 0,
+					timerPadding: 0,
+					timerOpacity: 0.6,
+					timerStroke: 7,
+					timerBarStroke: 0,
+					timerColor: '#3399cc',
+					timerPosition: "bottom-right"
+				});
+			});
+		</script>
+		
+	
+	<script type="text/javascript">
+		jQuery(document).ready(function($){
+			if ($(window).scrollTop() != "0")
+				$(".scroll-to-top").fadeIn(1200)
+			var scrollDiv = $(".scroll-to-top");
+			$(window).scroll(function()
+			{
+				if ($(window).scrollTop() == "0")
+					$(scrollDiv).fadeOut(350)
+				else
+					$(scrollDiv).fadeIn(1200)
+			});
+			$(".scroll-to-top").click(function(){
+				$("html, body").animate({
+					scrollTop: 0
+				}, 600)
+			})
+		});
+	</script>
+<!-- End wp_footer() -->
+
+</body>
+</html>
