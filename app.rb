@@ -26,8 +26,7 @@ def fetch_file(path)
 end
 
 get '/' do
-  @page = fetch_file('index.htm')
-  haml :page, :format => :html5
+  haml :index, :format => :html5
 end
 
 get '/stylesheet.css' do
